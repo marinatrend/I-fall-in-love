@@ -1,0 +1,36 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 300px; /* Adjust as per your layout */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Space between the image and the description */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.photo p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    max-width: 90%; /* Restrict paragraph width for better readability */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #f8f8f8;  /* Light background color */
+    padding: 20px;              /* Add padding around the content */
+    text-align: center;         /* Center-align the text */
+    font-family: Arial, sans-serif; /* Set the font */
+    color: #333;                /* Set the text color */
+    border-top: 2px solid #ccc; /* Optional border at the top */
+}
+
+footer p {
+    margin: 10px 0;             /* Add space between paragraphs */
+}

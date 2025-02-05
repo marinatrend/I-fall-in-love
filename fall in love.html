@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(45deg, #e70ec3, #d63535);
+            color: #f5e2ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            display: none;
+            max-height: 90vh;
+            overflow-y: auto;
+            width: 80%;
+        }
+
+        .container.active {
+            display: block;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background: #5db88d;
+            color: white;
+            font-size: 1.5rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(255, 111, 145, 0.5);
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo-container {
+            margin-top: 20px;
+        }
+
+        .photo {
+            margin-bottom: 30px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="home" class="container active">
+        <h1>Welcome to My Heart</h1>
+        <button onclick="showSection('feelings')">Open My Heart</button>
+    </div>
+
+    <div id="feelings" class="container">
+        <h1>My Feelings for You</h1>
+        <button onclick="showSection('gallery')">Open My Heart</button>
+    </div>
+
+    <div id="gallery" class="container">
+        <h1>my happynes</h1>
+        <div class="photo-container">
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015426.png"
+                <p> Yetii payrii kasrii vako k, this is illigal okay</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015407.png"
+                <p>sarii ma ta jhan k kura garnu</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015419.png"
+                <p>Mero ta fav colour nai 'black'</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015427.png"
+                <p>Mero ta mutu naii choyeko jasto</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015428.png"
+                <p>smile ko ta jhan k kura garnu ,ma afai lai laaj lagx</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015400.png"
+                <p>Bicharii - katii soji dekhya xau</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015413.png"
+                <p>Ekdam bachha jasti xau haii</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015408.png"
+                <p>yestaii necklace ma sng in xa ,hehe</p>
+            </div>
+                <div class="photo">
+                    <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015397.png"
+                    <p>FIrst time yeaii pic dekheko</p>
+            </div>
+            <div class="photo">
+                    <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015397.png"
+                    <p>FIrst time yeaii pic dekheko</p>
+            </div>
+            <div class="photo">
+                <img src="https://raw.githubusercontent.com/marinatrend/I-fall-in-love/refs/heads/main/1000015435.png"
+                <p>Timro aankha ma here vani sab birsehlxu mata,ekdin khana khnai birseko</p>
+        </div>
+        <footer>
+            <p>Dear Visitor,</p>
+            <p>i dont know what i want .i also dont know why i am thinking about you .i have seen you in a tiktok before i think 1 year ago but i didnt talk with you that time because i was afride that time 
+                but i am telling now and i didnt expact that you reply me and i havent expect that you give a num but, thanks god i get it 
+                Hmmm.... k vanm aba vanna laii ta dheraii thyo aba vannai sakiraxaina aba tmi yetii ramri xau ki ma chor jadto pare ..............
+                tmi kaa ma kaa , but i didnt store my feelings thats my prbml,surprise -surprise k hoina ma ta purpose gara laa ho aba ,aba tmi lai k vanau 
+                k vanu vo malai vanna lai k ni ayena ma ta direct purpose gardi xu ,- huna ta yesto kaam pagl le garxn but ma testo hoina tra timro lagi testii vaidenxu
+                aba yesma mero k galtii , bachha samajh k maaf kardena but (i really love you) bass  yetti vanna lai maile yetro website nai create handeko /lau vayo ma ya eklai pagl jastii barbarii raa xuu
+                malai j vnnu thyo maile vandeko laa ,heheh pagl samjha yaa j samjenxau aba 
+
+            <p>parash</p>
+        </footer>
+        </div>
+        <button onclick="showSection('home')">Back to Home</button>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.container').forEach(container => {
+                container.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
